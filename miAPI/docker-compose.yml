@@ -3,6 +3,6 @@ services:
     build: .
     container_name: server_FastAPI_205
     ports:
-      - "5000:5000"
+      - "5005:5005"
     volumes:
       - ./app:/app/app 
